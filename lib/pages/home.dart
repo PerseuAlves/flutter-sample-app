@@ -26,6 +26,14 @@ class HomePage extends StatelessWidget {
                 filled: true,
                 fillColor: Colors.white,
                 contentPadding: const EdgeInsets.all(15),
+                prefixIcon: Padding(
+                  padding: const EdgeInsets.all(12),
+                  child: SvgPicture.asset('assets/icons/Search.svg'),
+                ),
+                suffixIcon: Padding(
+                  padding: const EdgeInsets.all(12),
+                  child: SvgPicture.asset('assets/icons/Filter.svg'),
+                ),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(15),
                   borderSide: BorderSide.none,
